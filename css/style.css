@@ -11,8 +11,8 @@ body {background-color: #CCC;}
 }
 
 .greeting {
-    color:black;
-    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    color:blue;
+    text-shadow: 3px 3px 7px rgba(255,255,255, .5);
     text-align: center;
 }
 
