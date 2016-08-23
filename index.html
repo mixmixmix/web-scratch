@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Your MixMoving Companion</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>  <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
 </head>
 <body>
 
@@ -28,8 +30,9 @@
         <h3 id="nytimes-header">New York Times Articles</h3>
         <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
     </div>
+<div id="completness-graph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-    <script src="js/libs/jquery.min.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 </html>
