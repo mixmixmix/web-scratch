@@ -50,6 +50,7 @@ $('#completness-graph').highcharts({
             pointStart:0,
             events: {
                 mouseOver: function () {
+                    $('#greeting').text('MIND over matter!' );
                     this.chart.series[this.index].update({
                         color: 'blue'
                     });
