@@ -106,3 +106,11 @@ function loadData() {
 };
 
 $('#form-container').submit(loadData);
+
+    //Expanding:
+    $( function() {
+        $( "#accordion" ).accordion(
+            {collapsible: true}
+        );
+
+    } );
